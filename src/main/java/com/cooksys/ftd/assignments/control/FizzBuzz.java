@@ -32,11 +32,7 @@ public class FizzBuzz {
 			throw new IllegalArgumentException();
 		}
 
-		if (a % b == 0) {
-			return true;
-		} else {
-			return false;
-		}
+		return a % b == 0;
 	}
 
 	/**
